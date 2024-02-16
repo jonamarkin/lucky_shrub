@@ -60,5 +60,40 @@ header nav ul li a:hover {
     background-color: var(--hero-color);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    /*justify-content: flex-start;*/
+    font-family: var(--montserrat-font);
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+}
+
+
+.hero-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 1%;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.service {
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    width: 35px;
 }
