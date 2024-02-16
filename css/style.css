@@ -3,6 +3,7 @@
     --lato-font: 'Lato', sans-serif;
     --primary-color: #485025;
     --header-secondary-color: #9c9f7c;
+    --hero-color: #f8f1e5;
 }
 
 * {
@@ -17,7 +18,8 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #e8e5c6;
-    padding: 10px 5%;
+    padding: 2px 5%;
+    height: 10vh;
 }
 
 header nav ul {
@@ -37,7 +39,6 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-
     color: var(--primary-color);
 }
 
@@ -51,4 +52,10 @@ header nav ul li a:hover {
 
 .fas {
     padding: 0 10px;
+}
+
+
+.hero-section {
+    min-height: 60vh;
+    background-color: var(--hero-color);
 }
